@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "carpark-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:app": "node dist/app/server/server.mjs"
+    "serve:ssr:carpark-app": "node dist/carpark-app/server/server.mjs"
   },
   "prettier": {
     "overrides": [
@@ -21,10 +21,12 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/cdk": "^20.1.4",
     "@angular/common": "^20.1.0",
     "@angular/compiler": "^20.1.0",
     "@angular/core": "^20.1.0",
     "@angular/forms": "^20.1.0",
+    "@angular/material": "^20.1.4",
     "@angular/platform-browser": "^20.1.0",
     "@angular/platform-server": "^20.1.0",
     "@angular/router": "^20.1.0",
