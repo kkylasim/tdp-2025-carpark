@@ -1,0 +1,101 @@
+name,weekday_rate,weekend_rate,night_parking,region
+Bugis Junction,$1.20/30min,$1.50/30min,Available: $4 after 8pm,Central
+Plaza Singapura,$1.00/30min,$1.20/30min,Not Available,Central
+ION Orchard,$1.00/30min,$1.80/30min,Not Available,Central
+Marina Square,$1.00/30min,$1.20/30min,Available: $4 after 8pm,Central
+Suntec City,$1.50/30min,$1.50/30min,Not Available,Central
+Raffles City,$1.00/30min,$1.80/30min,Available: $5 after 9pm,Central
+Clarke Quay Central,$1.00/30min,$2.20/30min,Available: $5 after 9pm,Central
+The Cathay,$1.20/30min,$1.50/30min,Not Available,Central
+Funan,$1.20/30min,$2.20/30min,Available: $3 after 10pm,Central
+Great World City,$1.50/30min,$1.20/30min,Available: $4 after 8pm,Central
+Tampines Mall,$1.50/30min,$1.80/30min,Available: $4 after 8pm,East
+Century Square,$1.20/30min,$2.20/30min,Available: $4 after 8pm,East
+White Sands,$1.50/30min,$1.50/30min,Available: $3 after 10pm,East
+Changi City Point,$1.20/30min,$1.20/30min,Not Available,East
+Eastpoint Mall,$1.20/30min,$1.20/30min,Available: $4 after 8pm,East
+Bedok Mall,$1.20/30min,$1.20/30min,Available: $5 after 9pm,East
+Jewel Changi,$1.20/30min,$2.20/30min,Available: $3 after 10pm,East
+Parkway Parade,$1.00/30min,$1.80/30min,Available: $5 after 9pm,East
+Paya Lebar Square,$1.00/30min,$1.80/30min,Available: $3 after 10pm,East
+KINEX,$1.50/30min,$1.80/30min,Not Available,East
+Jurong Point,$1.00/30min,$1.20/30min,Available: $3 after 10pm,West
+Westgate,$1.00/30min,$2.20/30min,Available: $4 after 8pm,West
+JEM,$2.00/30min,$1.20/30min,Available: $3 after 10pm,West
+IMM,$1.00/30min,$2.20/30min,Not Available,West
+The Clementi Mall,$1.50/30min,$1.80/30min,Available: $3 after 10pm,West
+Bukit Panjang Plaza,$2.00/30min,$1.20/30min,Available: $4 after 8pm,West
+Hillion Mall,$2.00/30min,$1.80/30min,Available: $4 after 8pm,West
+The Rail Mall,$1.50/30min,$1.50/30min,Not Available,West
+Keat Hong Shopping Centre,$1.00/30min,$2.20/30min,Available: $3 after 10pm,West
+Greenridge Shopping Centre,$1.00/30min,$1.20/30min,Available: $3 after 10pm,West
+Northpoint City,$2.00/30min,$1.50/30min,Available: $4 after 8pm,North
+Causeway Point,$1.50/30min,$2.20/30min,Available: $4 after 8pm,North
+Sembawang Shopping Centre,$1.00/30min,$1.50/30min,Available: $5 after 9pm,North
+Junction 9,$1.20/30min,$2.20/30min,Available: $5 after 9pm,North
+Wisteria Mall,$1.20/30min,$1.20/30min,Available: $3 after 10pm,North
+Admiralty Place,$1.20/30min,$2.20/30min,Available: $3 after 10pm,North
+Vista Point,$2.00/30min,$2.20/30min,Not Available,North
+Canberra Plaza,$2.00/30min,$1.20/30min,Available: $5 after 9pm,North
+Sun Plaza,$2.00/30min,$2.20/30min,Available: $5 after 9pm,North
+Yishun Ten Complex,$1.20/30min,$1.80/30min,Available: $5 after 9pm,North
+NEX,$1.50/30min,$1.80/30min,Available: $4 after 8pm,North-East
+Hougang Mall,$1.00/30min,$1.50/30min,Available: $5 after 9pm,North-East
+Compass One,$1.50/30min,$1.20/30min,Available: $4 after 8pm,North-East
+The Seletar Mall,$2.00/30min,$1.50/30min,Available: $5 after 9pm,North-East
+Waterway Point,$1.00/30min,$1.20/30min,Not Available,North-East
+Punggol Plaza,$1.20/30min,$1.20/30min,Not Available,North-East
+Oasis Terraces,$1.50/30min,$1.20/30min,Not Available,North-East
+Buangkok Square Mall,$2.00/30min,$1.80/30min,Not Available,North-East
+Rivervale Mall,$1.00/30min,$2.20/30min,Not Available,North-East
+Hougang 1,$2.00/30min,$1.80/30min,Available: $4 after 8pm,North-East
+Clarke Quay Central Carpark E,$2.00/30min,$1.50/30min,Available: $4 after 8pm,Central
+Waterway Point Carpark D,$1.00/30min,$1.50/30min,Available: $5 after 9pm,North-East
+Waterway Point Carpark D Carpark B,$1.00/30min,$1.50/30min,Available: $5 after 9pm,North-East
+Suntec City Carpark A,$1.20/30min,$1.20/30min,Available: $5 after 9pm,Central
+Wisteria Mall Carpark A,$1.00/30min,$2.20/30min,Available: $5 after 9pm,North
+The Cathay Carpark B,$1.50/30min,$1.80/30min,Available: $3 after 10pm,Central
+Parkway Parade Carpark E,$1.50/30min,$1.20/30min,Available: $3 after 10pm,East
+Century Square Carpark B,$1.00/30min,$1.20/30min,Available: $3 after 10pm,East
+Northpoint City Carpark C,$1.00/30min,$1.80/30min,Not Available,North
+Buangkok Square Mall Carpark E,$1.00/30min,$2.20/30min,Available: $5 after 9pm,North-East
+The Rail Mall Carpark A,$1.50/30min,$1.50/30min,Available: $5 after 9pm,West
+The Rail Mall Carpark B,$1.20/30min,$2.20/30min,Available: $5 after 9pm,West
+Clarke Quay Central Carpark C,$1.20/30min,$2.20/30min,Not Available,Central
+Century Square Carpark B Carpark A,$1.00/30min,$2.20/30min,Not Available,East
+The Rail Mall Carpark D,$1.00/30min,$1.50/30min,Available: $3 after 10pm,West
+Rivervale Mall Carpark D,$1.20/30min,$2.20/30min,Available: $5 after 9pm,North-East
+Northpoint City Carpark C Carpark A,$1.00/30min,$2.20/30min,Not Available,North
+Clarke Quay Central Carpark C Carpark E,$2.00/30min,$1.80/30min,Available: $5 after 9pm,Central
+The Clementi Mall Carpark D,$2.00/30min,$1.20/30min,Available: $3 after 10pm,West
+Raffles City Carpark B,$2.00/30min,$1.50/30min,Not Available,Central
+The Cathay Carpark D,$1.00/30min,$2.20/30min,Available: $5 after 9pm,Central
+Buangkok Square Mall Carpark E Carpark C,$1.50/30min,$1.50/30min,Available: $3 after 10pm,North-East
+Greenridge Shopping Centre Carpark D,$1.20/30min,$1.50/30min,Available: $5 after 9pm,West
+Clarke Quay Central Carpark C Carpark C,$2.00/30min,$1.50/30min,Available: $3 after 10pm,Central
+White Sands Carpark E,$1.20/30min,$1.20/30min,Not Available,East
+Hougang 1 Carpark D,$2.00/30min,$2.20/30min,Available: $5 after 9pm,North-East
+Suntec City Carpark C,$1.20/30min,$1.50/30min,Not Available,Central
+Greenridge Shopping Centre Carpark A,$1.00/30min,$1.80/30min,Available: $5 after 9pm,West
+Admiralty Place Carpark C,$1.00/30min,$1.50/30min,Available: $3 after 10pm,North
+Funan Carpark B,$1.20/30min,$2.20/30min,Available: $5 after 9pm,Central
+Hougang 1 Carpark D,$1.50/30min,$1.20/30min,Available: $3 after 10pm,North-East
+The Clementi Mall Carpark D Carpark D,$1.00/30min,$1.80/30min,Available: $4 after 8pm,West
+Parkway Parade Carpark D,$1.00/30min,$1.50/30min,Not Available,East
+Funan Carpark A,$2.00/30min,$1.20/30min,Not Available,Central
+Punggol Plaza Carpark C,$1.20/30min,$1.20/30min,Available: $4 after 8pm,North-East
+The Rail Mall Carpark A Carpark D,$1.00/30min,$1.50/30min,Available: $4 after 8pm,West
+Raffles City Carpark B Carpark C,$1.00/30min,$1.20/30min,Available: $4 after 8pm,Central
+Sembawang Shopping Centre Carpark C,$1.20/30min,$2.20/30min,Available: $5 after 9pm,North
+Canberra Plaza Carpark B,$1.00/30min,$1.50/30min,Available: $5 after 9pm,North
+Jewel Changi Carpark E,$1.50/30min,$2.20/30min,Available: $3 after 10pm,East
+The Rail Mall Carpark E,$1.50/30min,$1.20/30min,Not Available,West
+Yishun Ten Complex Carpark D,$1.50/30min,$2.20/30min,Available: $5 after 9pm,North
+Admiralty Place Carpark C Carpark E,$2.00/30min,$1.20/30min,Not Available,North
+White Sands Carpark A,$1.00/30min,$1.20/30min,Available: $3 after 10pm,East
+Greenridge Shopping Centre Carpark D Carpark A,$1.00/30min,$1.20/30min,Available: $4 after 8pm,West
+Keat Hong Shopping Centre Carpark E,$1.50/30min,$2.20/30min,Not Available,West
+Rivervale Mall Carpark A,$1.20/30min,$1.20/30min,Available: $5 after 9pm,North-East
+Greenridge Shopping Centre Carpark A Carpark B,$1.20/30min,$2.20/30min,Available: $4 after 8pm,West
+Tampines Mall Carpark A,$2.00/30min,$2.20/30min,Available: $4 after 8pm,East
+Raffles City Carpark B Carpark C,$2.00/30min,$1.50/30min,Available: $4 after 8pm,Central
