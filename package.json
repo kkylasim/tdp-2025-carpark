@@ -4,7 +4,10 @@
   "description": "command to run server: ng serve --open",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "npm install && cd carpark-app && npm install && cd backend && npm install",
+    "start-frontend": "cd carpark-app && npm start",
+    "start-backend": "cd carpark-app/backend && npm start"
   },
   "repository": {
     "type": "git",

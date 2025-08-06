@@ -1,1 +1,3 @@
 command to run server: ng serve --open 
+
+input "npm run install-all" to get all backend + frontend dependencies
