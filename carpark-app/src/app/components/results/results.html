@@ -1,0 +1,16 @@
+<div class="example-action-buttons">
+    <button mat-button (click)="accordion().openAll()">Expand All</button>
+    <button mat-button (click)="accordion().closeAll()">Collapse All</button>
+  </div>
+  <mat-accordion class="example-headers-align" multi>
+      <mat-expansion-panel *ngFor="let item of items" (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
+        <mat-expansion-panel-header>
+          <mat-panel-title>{{ item.title }}</mat-panel-title>
+          <mat-panel-description>
+            {{ item.description }}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>Weekday rate: </p>
+        <p>Weekend rate: </p>
+      </mat-expansion-panel>
+  </mat-accordion>
