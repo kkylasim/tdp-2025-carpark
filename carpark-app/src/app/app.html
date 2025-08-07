@@ -190,11 +190,24 @@
           Filters: 
             <app-toggle
             [options]="toggleOptions"
-            [(selected)]="selectedTime"
+            [(selected)]="selectedNight"
+            (selectedChange)="onNightChange($event)"
             ></app-toggle>
         </div>
         <div style="padding-top: 7%;">
-          <app-textbox></app-textbox>
+          <app-textbox
+          (nameChange)="onNameChange($event)"
+          [options]="regionOptions"
+          [(selected)]="selectedRegion"
+          ></app-textbox>
+        </div>
+        <div>
+          <app-button
+          [name]="selectedName"
+          [region]="selectedRegion"
+          [nightParking]="selectedNight"
+          (searchClicked)="onSearch()"
+          ></app-button>
         </div>
       <p>The carpark rates have been sorted from cheapest to most expensive 🎉</p>
     </div>
