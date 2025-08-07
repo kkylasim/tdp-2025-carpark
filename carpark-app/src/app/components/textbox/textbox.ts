@@ -6,6 +6,7 @@ import {AsyncPipe} from '@angular/common';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
 
 @Component({
   selector: 'app-textbox',
@@ -15,7 +16,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatInputModule,
     MatAutocompleteModule,
     ReactiveFormsModule,
-    AsyncPipe,],
+    AsyncPipe,
+    MatSelectModule],
   templateUrl: './textbox.html',
   styleUrls: ['./textbox.scss']
 })
