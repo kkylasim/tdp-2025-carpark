@@ -53,6 +53,7 @@ PostgreSQL
 
 ---
 ## 🛠 File Structure
+```
 ./carpark-app/
 ├── backend/            # Node.js + Express backend API
 │   ├── server.js       # Backend entry point
@@ -64,6 +65,7 @@ PostgreSQL
 ├── src/                # Angular frontend
 │
 └── package.json        # Frontend dependencies
+```
 
 ## 👥 Contributors
 Seth Yap, Kyla Sim, Ryan Teoh, Charlotte 
