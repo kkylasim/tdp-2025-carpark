@@ -1,8 +1,67 @@
-1. input "npm run install-all" to get all backend + frontend dependencies
-2. navigate to carpark-app directory and run command: ng serve --open 
-3. on a separate terminal, navigate to backend directory and run command: node server.js (contact @sethyup on telegram for the .env file)
+# 🚗 Carpark Rate Finder
 
-About the webapp:
-Search carpark rates by filters (night parking available toggle, name of carpark and region).
-If there are results, accordion should show with name, region, weekend and weekday rates.
-If not, means that there are no carparks with the appropriate conditions set.
+A full-stack web application that allows users to search for **carpark rates in Singapore** based on filters such as **night parking availability**, **carpark name**, and **region**.
+
+---
+
+## 📌 Features
+
+- **Night Parking Filter** – Toggle to show only carparks that offer night parking.
+- **Search by Name** – Quickly find a carpark by its name.
+- **Search by Region** – Filter results based on region.
+- **Dynamic Accordion Results** – Displays:
+  - Carpark name  
+  - Region  
+  - Weekday rates  
+  - Weekend rates  
+- **Empty State Handling** – Shows a “no results” message if no matches are found.
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to get the project running locally.
+
+### 1 Install Dependencies
+Run the following command in the project root to install **both backend and frontend dependencies**:
+```bash
+npm run install-all
+
+### 2 Start the frontend
+ng serve --open
+
+### 3 Start the frontend
+node server.js
+
+---
+## 🛠 Tech Stack
+Frontend:
+
+Angular 2+
+
+Angular Material (UI components)
+
+Backend:
+
+Node.js
+
+Express.js
+
+Database:
+
+PostgreSQL
+
+---
+## 🛠 File Structure
+./carpark-app/
+├── backend/            # Node.js + Express backend API
+│   ├── server.js       # Backend entry point
+│   ├── routes/         # API route definitions
+│   ├── controllers/    # Routing & SQL logic
+│   ├── package.json    # Backend Dependencies
+│   └── .env            # Environment variables (not committed)
+│
+├── src/                # Angular frontend
+│
+└── package.json        # Frontend dependencies
+
