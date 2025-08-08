@@ -1,3 +1,8 @@
-command to run server: ng serve --open 
+1. input "npm run install-all" to get all backend + frontend dependencies
+2. navigate to carpark-app directory and run command: ng serve --open 
+3. on a separate terminal, navigate to backend directory and run command: node server.js (contact @sethyup on telegram for the .env file)
 
-input "npm run install-all" to get all backend + frontend dependencies
+About the webapp:
+Search carpark rates by filters (night parking available toggle, name of carpark and region).
+If there are results, accordion should show with name, region, weekend and weekday rates.
+If not, means that there are no carparks with the appropriate conditions set.
