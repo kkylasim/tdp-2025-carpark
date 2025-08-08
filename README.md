@@ -5,7 +5,6 @@ A full-stack web application that allows users to search for **carpark rates in 
 ---
 
 ## 📌 Features
-
 - **Night Parking Filter** – Toggle to show only carparks that offer night parking.
 - **Search by Name** – Quickly find a carpark by its name.
 - **Search by Region** – Filter results based on region.
@@ -26,29 +25,30 @@ Follow these steps to get the project running locally.
 Run the following command in the project root to install **both backend and frontend dependencies**:
 ```bash
 npm run install-all
+```
 
 ### 2 Start the frontend
+```
 ng serve --open
+```
 
-### 3 Start the frontend
+### 3 Start the backend
+```
+cd backend
 node server.js
+```
 
 ---
 ## 🛠 Tech Stack
 Frontend:
-
 Angular 2+
-
 Angular Material (UI components)
 
 Backend:
-
 Node.js
-
 Express.js
 
-Database:
-
+Database: 
 PostgreSQL
 
 ---
@@ -64,4 +64,9 @@ PostgreSQL
 ├── src/                # Angular frontend
 │
 └── package.json        # Frontend dependencies
+
+## 👥 Contributors
+Seth Yap, Kyla Sim, Ryan Teoh, Charlotte 
+
+
 
