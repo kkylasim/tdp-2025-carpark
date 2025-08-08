@@ -70,7 +70,7 @@ PostgreSQL (Supabase) - Hosted on cloud
 ```
 
 ## 👥 Contributors
-Seth Yap, Kyla Sim, Ryan Teoh, Charlotte 
+Seth Yap, Kyla Sim, Ryan Teoh, Charlotte Lee
 
 
 
