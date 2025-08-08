@@ -2,6 +2,8 @@
 
 A full-stack web application that allows users to search for **carpark rates in Singapore** based on filters such as **night parking availability**, **carpark name**, and **region**.
 
+NOTE: A .env containing the URL to our publicly hosted PostgreSQL database on Supabase along with the API key is required for the data to be retrieved. However, it is NOT committed in this repo.
+
 ---
 
 ## 📌 Features
@@ -49,7 +51,7 @@ Node.js
 Express.js
 
 Database: 
-PostgreSQL
+PostgreSQL (Supabase) - Hosted on cloud
 
 ---
 ## 🛠 File Structure
