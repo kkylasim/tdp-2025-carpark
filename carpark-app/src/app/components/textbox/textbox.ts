@@ -2,7 +2,7 @@ import {Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
 import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
-import {AsyncPipe} from '@angular/common';
+import {AsyncPipe, CommonModule} from '@angular/common';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -16,13 +16,7 @@ const key = environment.supabaseKey;
 @Component({
   selector: 'app-textbox',
   standalone: true,
-  imports: [ FormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatAutocompleteModule,
-    ReactiveFormsModule,
-    AsyncPipe,
-    MatSelectModule],
+  imports: [FormsModule, MatFormFieldModule, MatInputModule, MatAutocompleteModule, ReactiveFormsModule, AsyncPipe, MatSelectModule, CommonModule],
   templateUrl: './textbox.html',
   styleUrls: ['./textbox.scss']
 })
@@ -30,38 +24,39 @@ export class Textbox implements OnInit {
   myControl = new FormControl('');
   filteredOptions!: Observable<string[]>;
 
-  options: string[] = [];
+  // autocomplete options (from API)
+  carparkOptions: string[] = [];
+
+  // ✅ region options + selected come from parent
+  @Input() options: { label: string; value: string }[] = [];
+  @Input() selected: string = '';
+  @Output() selectedChange = new EventEmitter<string>();
 
   @Output() nameChange = new EventEmitter<string>();
 
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    // Fetch carpark names
     this.http.get<any[]>(`${url}/api/carparks`).subscribe({
       next: data => {
-        this.options = data.map(item => item.name);
-
-        // Only after data is fetched, set up filtering
+        this.carparkOptions = data.map(i => i.name);
         this.filteredOptions = this.myControl.valueChanges.pipe(
           startWith(''),
-          map(value => this._filter(value || ''))
+          map(v => this._filter(v || ''))
         );
       },
-      error: err => {
-        console.error('Failed to load carpark options:', err);
-      }
+      error: err => console.error('Failed to load carpark options:', err)
     });
 
-    this.myControl.valueChanges.subscribe(value => {
-      this.nameChange.emit(value || '');
-    });
+    this.myControl.valueChanges.subscribe(v => this.nameChange.emit(v || ''));
+  }
+
+  onRegionSelected(value: string) {
+    this.selectedChange.emit(value);
   }
 
   private _filter(value: string): string[] {
-    const filterValue = value.toLowerCase();
-    return this.options.filter(option =>
-      option.toLowerCase().includes(filterValue)
-    );
+    const f = value.toLowerCase();
+    return this.carparkOptions.filter(o => o.toLowerCase().includes(f));
   }
 }

@@ -15,7 +15,9 @@ import { Button } from './components/button/button'
 export class App {
   protected readonly title = signal('carpark-app');
   regionOptions = [
+    { label: '-', value: '' },
     { label: 'North', value: 'North' },
+    { label: 'Central', value: 'Central' },
     { label: 'South', value: 'South' },
     { label: 'East', value: 'East' },
     { label: 'West', value: 'West' },
@@ -39,5 +41,11 @@ export class App {
 
   onNightChange(night: string) {
     this.selectedNight = night;
+  }
+
+  carparkResults: any[] = [];
+
+  onResults(data: any[]) {
+    this.carparkResults = [...data];
   }
 }

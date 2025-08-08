@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, viewChild} from '@angular/core';
+import {ChangeDetectionStrategy, Component, viewChild, Input} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 import {provideNativeDateAdapter} from '@angular/material/core';
 import {MatDatepickerModule} from '@angular/material/datepicker';
@@ -27,11 +27,12 @@ import { CommonModule } from '@angular/common';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Results {
-  accordion = viewChild.required(MatAccordion);
+  // accordion = viewChild.required(MatAccordion);
   readonly panelOpenState = signal(false);
-  items = [
-    { title: 'Result 1', description: 'Description for result 1', content: 'Details of result 1' },
-    { title: 'Result 2', description: 'Description for result 2', content: 'Details of result 2' },
-    { title: 'Result 3', description: 'Description for result 3', content: 'Details of result 3' },
-  ];
+  @Input() items!: any[];
+  // items = [
+  //   { title: 'Result 1', description: 'Description for result 1', content: 'Details of result 1' },
+  //   { title: 'Result 2', description: 'Description for result 2', content: 'Details of result 2' },
+  //   { title: 'Result 3', description: 'Description for result 3', content: 'Details of result 3' },
+  // ];
 }

@@ -14,14 +14,26 @@
       </mat-autocomplete>
     </mat-form-field>
 
-    <mat-form-field>
+    <!-- <mat-form-field>
       <mat-label>Region</mat-label>
       <mat-select>
+        <mat-option value="">-</mat-option>
         <mat-option value="central">Central</mat-option>
         <mat-option value="east">East</mat-option>
         <mat-option value="west">West</mat-option>
         <mat-option value="north">North</mat-option>
         <mat-option value="northeast">North-East</mat-option>
+      </mat-select>
+    </mat-form-field> -->
+    <mat-form-field>
+      <mat-label>Region</mat-label>
+      <mat-select
+        [value]="selected"
+        (selectionChange)="onRegionSelected($event.value)"
+      >
+        <mat-option *ngFor="let r of options" [value]="r.value">
+          {{ r.label }}
+        </mat-option>
       </mat-select>
     </mat-form-field>
   </form>
