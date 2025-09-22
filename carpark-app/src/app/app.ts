@@ -20,7 +20,6 @@ export class App {
     { label: 'Central', value: 'Central' },
     { label: 'South', value: 'South' },
     { label: 'East', value: 'East' },
-    { label: 'West', value: 'West' },
     { label: 'Northeast', value: 'Northeast' }
   ];
   toggleOptions = [
