@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const supabase = require('../db');
-const carparksController = require('../controllers/carparkscontroller');
+const carparksController = require('../controllers/carparksController');
 
 // ONLY READ OPERATIONS, NO NEED FOR CREATE, UPDATE, DELETE
 
