@@ -27,6 +27,7 @@ exports.getCarparksByName = async (req, res) => {
     .select('*')
     .ilike('name', `%${name}%`);
   if (error) return res.status(500).json({ error: error.message });
+  if (!data || data.length === 0) return res.status(404).json({ error: 'Carpark not found' });
   res.json(data);
 };
 
