@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: carpark-app/backend  # 👈 adjust if needed
+        working-directory: backend  # 👈 adjust if needed
 
     steps:
       - name: Checkout repository
